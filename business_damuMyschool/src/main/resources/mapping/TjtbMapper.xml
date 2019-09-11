@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.damuMyschool.mapper.TjtbMapper" >
+  <resultMap id="BaseResultMap" type="com.example.damuMyschool.data.entity.Tjtb" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="oprt_id" property="oprtId" jdbcType="VARCHAR" />
+    <result column="x1_eName" property="x1Ename" jdbcType="VARCHAR" />
+    <result column="x1_cName" property="x1Cname" jdbcType="VARCHAR" />
+    <result column="x1_value" property="x1Value" jdbcType="VARCHAR" />
+    <result column="x2_eName" property="x2Ename" jdbcType="VARCHAR" />
+    <result column="x2_cName" property="x2Cname" jdbcType="VARCHAR" />
+    <result column="x2_value" property="x2Value" jdbcType="VARCHAR" />
+    <result column="x3_eName" property="x3Ename" jdbcType="VARCHAR" />
+    <result column="x3_cName" property="x3Cname" jdbcType="VARCHAR" />
+    <result column="x3_value" property="x3Value" jdbcType="VARCHAR" />
+    <result column="y_eName" property="yEname" jdbcType="VARCHAR" />
+    <result column="y_cName" property="yCname" jdbcType="VARCHAR" />
+    <result column="y_value" property="yValue" jdbcType="VARCHAR" />
+    <result column="chartIndex" property="chartindex" jdbcType="VARCHAR" />
+    <result column="version" property="version" jdbcType="VARCHAR" />
+    <result column="sum" property="sum" jdbcType="INTEGER" />
+    <result column="num" property="num" jdbcType="INTEGER" />
+    <result column="min" property="min" jdbcType="INTEGER" />
+    <result column="max" property="max" jdbcType="INTEGER" />
+    <result column="percent_1" property="percent1" jdbcType="INTEGER" />
+    <result column="percent_5" property="percent5" jdbcType="INTEGER" />
+    <result column="percent_10" property="percent10" jdbcType="INTEGER" />
+    <result column="percent_25" property="percent25" jdbcType="INTEGER" />
+    <result column="percent_50" property="percent50" jdbcType="INTEGER" />
+    <result column="percent_75" property="percent75" jdbcType="INTEGER" />
+    <result column="percent_90" property="percent90" jdbcType="INTEGER" />
+    <result column="percent_100" property="percent100" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, oprt_id, x1_eName, x1_cName, x1_value, x2_eName, x2_cName, x2_value, x3_eName, 
+    x3_cName, x3_value, y_eName, y_cName, y_value, chartIndex, version, sum, num, min, 
+    max, percent_1, percent_5, percent_10, percent_25, percent_50, percent_75, percent_90, 
+    percent_100
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from tjtb
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from tjtb
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.example.damuMyschool.data.entity.Tjtb" >
+    insert into tjtb (id, oprt_id, x1_eName, 
+      x1_cName, x1_value, x2_eName, 
+      x2_cName, x2_value, x3_eName, 
+      x3_cName, x3_value, y_eName, 
+      y_cName, y_value, chartIndex, 
+      version, sum, num, 
+      min, max, percent_1, 
+      percent_5, percent_10, percent_25, 
+      percent_50, percent_75, percent_90, 
+      percent_100)
+    values (#{id,jdbcType=VARCHAR}, #{oprtId,jdbcType=VARCHAR}, #{x1Ename,jdbcType=VARCHAR}, 
+      #{x1Cname,jdbcType=VARCHAR}, #{x1Value,jdbcType=VARCHAR}, #{x2Ename,jdbcType=VARCHAR}, 
+      #{x2Cname,jdbcType=VARCHAR}, #{x2Value,jdbcType=VARCHAR}, #{x3Ename,jdbcType=VARCHAR}, 
+      #{x3Cname,jdbcType=VARCHAR}, #{x3Value,jdbcType=VARCHAR}, #{yEname,jdbcType=VARCHAR}, 
+      #{yCname,jdbcType=VARCHAR}, #{yValue,jdbcType=VARCHAR}, #{chartindex,jdbcType=VARCHAR}, 
+      #{version,jdbcType=VARCHAR}, #{sum,jdbcType=INTEGER}, #{num,jdbcType=INTEGER}, 
+      #{min,jdbcType=INTEGER}, #{max,jdbcType=INTEGER}, #{percent1,jdbcType=INTEGER}, 
+      #{percent5,jdbcType=INTEGER}, #{percent10,jdbcType=INTEGER}, #{percent25,jdbcType=INTEGER}, 
+      #{percent50,jdbcType=INTEGER}, #{percent75,jdbcType=INTEGER}, #{percent90,jdbcType=INTEGER}, 
+      #{percent100,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.damuMyschool.data.entity.Tjtb" >
+    insert into tjtb
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="oprtId != null" >
+        oprt_id,
+      </if>
+      <if test="x1Ename != null" >
+        x1_eName,
+      </if>
+      <if test="x1Cname != null" >
+        x1_cName,
+      </if>
+      <if test="x1Value != null" >
+        x1_value,
+      </if>
+      <if test="x2Ename != null" >
+        x2_eName,
+      </if>
+      <if test="x2Cname != null" >
+        x2_cName,
+      </if>
+      <if test="x2Value != null" >
+        x2_value,
+      </if>
+      <if test="x3Ename != null" >
+        x3_eName,
+      </if>
+      <if test="x3Cname != null" >
+        x3_cName,
+      </if>
+      <if test="x3Value != null" >
+        x3_value,
+      </if>
+      <if test="yEname != null" >
+        y_eName,
+      </if>
+      <if test="yCname != null" >
+        y_cName,
+      </if>
+      <if test="yValue != null" >
+        y_value,
+      </if>
+      <if test="chartindex != null" >
+        chartIndex,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+      <if test="sum != null" >
+        sum,
+      </if>
+      <if test="num != null" >
+        num,
+      </if>
+      <if test="min != null" >
+        min,
+      </if>
+      <if test="max != null" >
+        max,
+      </if>
+      <if test="percent1 != null" >
+        percent_1,
+      </if>
+      <if test="percent5 != null" >
+        percent_5,
+      </if>
+      <if test="percent10 != null" >
+        percent_10,
+      </if>
+      <if test="percent25 != null" >
+        percent_25,
+      </if>
+      <if test="percent50 != null" >
+        percent_50,
+      </if>
+      <if test="percent75 != null" >
+        percent_75,
+      </if>
+      <if test="percent90 != null" >
+        percent_90,
+      </if>
+      <if test="percent100 != null" >
+        percent_100,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="oprtId != null" >
+        #{oprtId,jdbcType=VARCHAR},
+      </if>
+      <if test="x1Ename != null" >
+        #{x1Ename,jdbcType=VARCHAR},
+      </if>
+      <if test="x1Cname != null" >
+        #{x1Cname,jdbcType=VARCHAR},
+      </if>
+      <if test="x1Value != null" >
+        #{x1Value,jdbcType=VARCHAR},
+      </if>
+      <if test="x2Ename != null" >
+        #{x2Ename,jdbcType=VARCHAR},
+      </if>
+      <if test="x2Cname != null" >
+        #{x2Cname,jdbcType=VARCHAR},
+      </if>
+      <if test="x2Value != null" >
+        #{x2Value,jdbcType=VARCHAR},
+      </if>
+      <if test="x3Ename != null" >
+        #{x3Ename,jdbcType=VARCHAR},
+      </if>
+      <if test="x3Cname != null" >
+        #{x3Cname,jdbcType=VARCHAR},
+      </if>
+      <if test="x3Value != null" >
+        #{x3Value,jdbcType=VARCHAR},
+      </if>
+      <if test="yEname != null" >
+        #{yEname,jdbcType=VARCHAR},
+      </if>
+      <if test="yCname != null" >
+        #{yCname,jdbcType=VARCHAR},
+      </if>
+      <if test="yValue != null" >
+        #{yValue,jdbcType=VARCHAR},
+      </if>
+      <if test="chartindex != null" >
+        #{chartindex,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="sum != null" >
+        #{sum,jdbcType=INTEGER},
+      </if>
+      <if test="num != null" >
+        #{num,jdbcType=INTEGER},
+      </if>
+      <if test="min != null" >
+        #{min,jdbcType=INTEGER},
+      </if>
+      <if test="max != null" >
+        #{max,jdbcType=INTEGER},
+      </if>
+      <if test="percent1 != null" >
+        #{percent1,jdbcType=INTEGER},
+      </if>
+      <if test="percent5 != null" >
+        #{percent5,jdbcType=INTEGER},
+      </if>
+      <if test="percent10 != null" >
+        #{percent10,jdbcType=INTEGER},
+      </if>
+      <if test="percent25 != null" >
+        #{percent25,jdbcType=INTEGER},
+      </if>
+      <if test="percent50 != null" >
+        #{percent50,jdbcType=INTEGER},
+      </if>
+      <if test="percent75 != null" >
+        #{percent75,jdbcType=INTEGER},
+      </if>
+      <if test="percent90 != null" >
+        #{percent90,jdbcType=INTEGER},
+      </if>
+      <if test="percent100 != null" >
+        #{percent100,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.damuMyschool.data.entity.Tjtb" >
+    update tjtb
+    <set >
+      <if test="oprtId != null" >
+        oprt_id = #{oprtId,jdbcType=VARCHAR},
+      </if>
+      <if test="x1Ename != null" >
+        x1_eName = #{x1Ename,jdbcType=VARCHAR},
+      </if>
+      <if test="x1Cname != null" >
+        x1_cName = #{x1Cname,jdbcType=VARCHAR},
+      </if>
+      <if test="x1Value != null" >
+        x1_value = #{x1Value,jdbcType=VARCHAR},
+      </if>
+      <if test="x2Ename != null" >
+        x2_eName = #{x2Ename,jdbcType=VARCHAR},
+      </if>
+      <if test="x2Cname != null" >
+        x2_cName = #{x2Cname,jdbcType=VARCHAR},
+      </if>
+      <if test="x2Value != null" >
+        x2_value = #{x2Value,jdbcType=VARCHAR},
+      </if>
+      <if test="x3Ename != null" >
+        x3_eName = #{x3Ename,jdbcType=VARCHAR},
+      </if>
+      <if test="x3Cname != null" >
+        x3_cName = #{x3Cname,jdbcType=VARCHAR},
+      </if>
+      <if test="x3Value != null" >
+        x3_value = #{x3Value,jdbcType=VARCHAR},
+      </if>
+      <if test="yEname != null" >
+        y_eName = #{yEname,jdbcType=VARCHAR},
+      </if>
+      <if test="yCname != null" >
+        y_cName = #{yCname,jdbcType=VARCHAR},
+      </if>
+      <if test="yValue != null" >
+        y_value = #{yValue,jdbcType=VARCHAR},
+      </if>
+      <if test="chartindex != null" >
+        chartIndex = #{chartindex,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        version = #{version,jdbcType=VARCHAR},
+      </if>
+      <if test="sum != null" >
+        sum = #{sum,jdbcType=INTEGER},
+      </if>
+      <if test="num != null" >
+        num = #{num,jdbcType=INTEGER},
+      </if>
+      <if test="min != null" >
+        min = #{min,jdbcType=INTEGER},
+      </if>
+      <if test="max != null" >
+        max = #{max,jdbcType=INTEGER},
+      </if>
+      <if test="percent1 != null" >
+        percent_1 = #{percent1,jdbcType=INTEGER},
+      </if>
+      <if test="percent5 != null" >
+        percent_5 = #{percent5,jdbcType=INTEGER},
+      </if>
+      <if test="percent10 != null" >
+        percent_10 = #{percent10,jdbcType=INTEGER},
+      </if>
+      <if test="percent25 != null" >
+        percent_25 = #{percent25,jdbcType=INTEGER},
+      </if>
+      <if test="percent50 != null" >
+        percent_50 = #{percent50,jdbcType=INTEGER},
+      </if>
+      <if test="percent75 != null" >
+        percent_75 = #{percent75,jdbcType=INTEGER},
+      </if>
+      <if test="percent90 != null" >
+        percent_90 = #{percent90,jdbcType=INTEGER},
+      </if>
+      <if test="percent100 != null" >
+        percent_100 = #{percent100,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.damuMyschool.data.entity.Tjtb" >
+    update tjtb
+    set oprt_id = #{oprtId,jdbcType=VARCHAR},
+      x1_eName = #{x1Ename,jdbcType=VARCHAR},
+      x1_cName = #{x1Cname,jdbcType=VARCHAR},
+      x1_value = #{x1Value,jdbcType=VARCHAR},
+      x2_eName = #{x2Ename,jdbcType=VARCHAR},
+      x2_cName = #{x2Cname,jdbcType=VARCHAR},
+      x2_value = #{x2Value,jdbcType=VARCHAR},
+      x3_eName = #{x3Ename,jdbcType=VARCHAR},
+      x3_cName = #{x3Cname,jdbcType=VARCHAR},
+      x3_value = #{x3Value,jdbcType=VARCHAR},
+      y_eName = #{yEname,jdbcType=VARCHAR},
+      y_cName = #{yCname,jdbcType=VARCHAR},
+      y_value = #{yValue,jdbcType=VARCHAR},
+      chartIndex = #{chartindex,jdbcType=VARCHAR},
+      version = #{version,jdbcType=VARCHAR},
+      sum = #{sum,jdbcType=INTEGER},
+      num = #{num,jdbcType=INTEGER},
+      min = #{min,jdbcType=INTEGER},
+      max = #{max,jdbcType=INTEGER},
+      percent_1 = #{percent1,jdbcType=INTEGER},
+      percent_5 = #{percent5,jdbcType=INTEGER},
+      percent_10 = #{percent10,jdbcType=INTEGER},
+      percent_25 = #{percent25,jdbcType=INTEGER},
+      percent_50 = #{percent50,jdbcType=INTEGER},
+      percent_75 = #{percent75,jdbcType=INTEGER},
+      percent_90 = #{percent90,jdbcType=INTEGER},
+      percent_100 = #{percent100,jdbcType=INTEGER}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+
+  <resultMap id="tjtbGpMap" type="com.example.damuMyschool.data.entity.Tjtb">
+    <result column="x1_eName" property="x1Ename" jdbcType="VARCHAR" />
+    <result column="x2_eName" property="x2Ename" jdbcType="VARCHAR" />
+    <result column="x3_eName" property="x3Ename" jdbcType="VARCHAR" />
+    <result column="y_eName" property="yEname" jdbcType="VARCHAR" />
+    <result column="y_value" property="yValue" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="getTjtbGp" resultMap="tjtbGpMap">
+    select x1_eName,x2_eName,x3_eName,y_eName,y_value
+    from tjtb
+    where oprt_id=#{oprtId,jdbcType=VARCHAR}
+    group by x1_eName,x2_eName,x3_eName,y_eName,y_value
+    order by x1_value,x2_value,x3_value,y_value
+  </select>
+
+  <select id="getTjtbSjByGp" resultMap="BaseResultMap">
+    select *
+    from tjtb
+    where oprt_id=#{oprtId,jdbcType=VARCHAR}
+    <choose>
+      <when test="x1Ename != null and x1Ename != ''">
+        and x1_eName = #{x1Ename,jdbcType=VARCHAR}
+      </when>
+      <otherwise>
+        and x1_eName  =''
+      </otherwise>
+    </choose>
+    <choose>
+      <when test="x2Ename != null and x2Ename != ''">
+        and x2_eName = #{x2Ename,jdbcType=VARCHAR}
+      </when>
+      <otherwise>
+        and x2_eName =''
+      </otherwise>
+    </choose>
+    <choose>
+      <when test="x3Ename != null and x3Ename != ''">
+        and x3_eName = #{x3Ename,jdbcType=VARCHAR}
+      </when>
+      <otherwise>
+        and x3_eName  =''
+      </otherwise>
+    </choose>
+    <choose>
+      <when test="yEname != null and yEname != ''">
+        and y_eName = #{yEname,jdbcType=VARCHAR}
+      </when>
+      <otherwise>
+        and y_eName  =''
+      </otherwise>
+    </choose>
+    <choose>
+      <when test="yValue != null and yValue != ''">
+        and y_value = #{yValue,jdbcType=VARCHAR}
+      </when>
+      <otherwise>
+        and y_value  =''
+      </otherwise>
+    </choose>
+    order by x1_value,x2_value,x3_value
+  </select>
+</mapper>

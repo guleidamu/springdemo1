@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: gateway
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: business-config #配置中心服务名
+      profile: dev-in
+      label: master
+      name: ${spring.application.name}
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        http://eureka:eureka@localhost:10086/eureka/

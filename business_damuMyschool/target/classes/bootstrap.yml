@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: business-damumyschool
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: business-config #配置中心服务名
+      profile: dev-in
+      name: business-damumyschool
+
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        http://eureka:eureka@localhost:10086/eureka/
+    registry-fetch-interval-seconds: 10
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.example.**.entity
+logging:
+  level:
+    com.example.businessdemo.mapper: debug
+

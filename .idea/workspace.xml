@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1f0f69c-a95d-4adf-a791-31741eb1b0e2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/businessdemo/target/" />
+    <ignored path="$PROJECT_DIR$/serverdemo/target/" />
+    <ignored path="$PROJECT_DIR$/configclientdemo/target/" />
+    <ignored path="$PROJECT_DIR$/configserverdemo/target/" />
+    <ignored path="$PROJECT_DIR$/business-config/target/" />
+    <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/business_damuMyschool/target/" />
+    <ignored path="$PROJECT_DIR$/redisDemo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ExcelUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/businessdemo/src/main/resources/mapping/book.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ReadxmlByDom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1931#1939#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/businessdemo/src/main/resources/mapping/UserMapping.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+              <folding>
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/Select.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eure</find>
+      <find>eur</find>
+      <find>conf</find>
+      <find>config</find>
+      <find>StudentMapper</find>
+      <find>dd</find>
+      <find>selectByPrimaryKey</find>
+      <find>BaseResultMap</find>
+      <find>feign</find>
+      <find>CollectionUtils</find>
+      <find>entity.Tjtb</find>
+      <find>getTjtbGp</find>
+      <find>update</find>
+      <find>getActInf</find>
+      <find>getActInfo</find>
+      <find>getPermissionBy</find>
+      <find>getMyschool</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/entity/Student.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/impl/studentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/studentService.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/resources/mapping/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/Id.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/business-config/src/main/resources/configpath/gateway-dev-in.yml" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/data/vo/Qid.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/feign/client/ExtractData.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/feign/client/impl/ExtractDataClientImpl.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/redisDemo/src/main/java/RedisDemoApplication.java" />
+        <option value="$PROJECT_DIR$/redisDemo/src/main/java/com/example/redisDemo/RedisDemoApplication.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/entity/Grade.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/mapper/e.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/filterService.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/impl/filterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/mapper/FilterMapper.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/resources/mapping/FilterMapper.xml" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/BusinessdemoApplication.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/test/java/com/example/businessdemo/BusinessdemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/redisDemo/src/main/java/com/example/redisDemo/test.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/resources/generator/generator.xml" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/entity/Tjtb.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/dto/Tjtb.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/response/Result.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/mapper/TjtbMapper.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/TjEchartData.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/IndexXaxisData.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/TjtbVo.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/TjtbService.java" />
+        <option value="$PROJECT_DIR$/business-config/src/main/resources/configpath/business-damumyschool-dev-in.yml" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/TjtbController.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/impl/TjtbServiceImpl.java" />
+        <option value="$PROJECT_DIR$/business_damuMyschool/src/main/resources/mapping/TjtbMapper.xml" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/resources/mapping/PermissionMapping.xml" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/Excel.java" />
+        <option value="$PROJECT_DIR$/businessdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/Book.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/resources/mapping/book.xml" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/Select.java" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/resources/mapping/UserMapping.xml" />
+        <option value="$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ReadxmlByDom.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="devdemo-business" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="devdemo-business" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="20" />
+    <option name="width" value="1335" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-eureka-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-eureka-test" type="462c0819:PsiDirectoryNode" />
+              <item name="businessdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568186278055" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/business_damuMyschool" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.damuMyschool.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.damuMyschool.data.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\IDEA_WorkSpace\springboot-eureka-test\business_damuMyschool\src\main\java\com.example.damuMyschool" />
+      <recent name="D:\WorkSpace\IDEA_WorkSpace\springboot-eureka-test\business-config\src\main\resources\configpath" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2912041" />
+  </component>
+  <component name="RunManager" selected="Application.ReadxmlByDom">
+    <configuration name="ExcelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.businessdemo.util.ExcelUtil" />
+      <module name="businessdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.businessdemo.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadxmlByDom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.businessdemo.util.ReadxmlByDom" />
+      <module name="businessdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.businessdemo.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.redisDemo.test" />
+      <module name="redisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.redisDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessdemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="businessdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.businessdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.businessdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.businessdemo.BusinessdemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myschoolG" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/business_damuMyschool" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="BusinessConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="business-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.businessconfig.BusinessConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="businessdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.businessdemo.BusinessdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configclientdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.clientdemo.ClientdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configserverdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.configserverdemo.ConfigserverdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.norexis.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="businessDamuMyschool" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="business_damuMyschool" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.damuMyschool.businessDamuMyschool" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.gatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.ExcelUtil" />
+      <item itemvalue="Application.ReadxmlByDom" />
+      <item itemvalue="JUnit.BusinessdemoApplicationTests.contextLoads" />
+      <item itemvalue="Maven.myschoolG" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.BusinessdemoApplication" />
+      <item itemvalue="Spring Boot.gateway" />
+      <item itemvalue="Spring Boot.ClientdemoApplication" />
+      <item itemvalue="Spring Boot.ConfigserverdemoApplication" />
+      <item itemvalue="Spring Boot.BusinessConfigApplication" />
+      <item itemvalue="Spring Boot.businessDamuMyschool" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReadxmlByDom" />
+        <item itemvalue="Application.ExcelUtil" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.BusinessdemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1f0f69c-a95d-4adf-a791-31741eb1b0e2" name="Default Changelist" comment="" />
+      <created>1545720659042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545720659042</updated>
+      <workItem from="1545720671835" duration="3042000" />
+      <workItem from="1545806381296" duration="293000" />
+      <workItem from="1545806691712" duration="638000" />
+      <workItem from="1545815752589" duration="1401000" />
+      <workItem from="1545835952466" duration="759000" />
+      <workItem from="1545890329082" duration="1180000" />
+      <workItem from="1545962208772" duration="6305000" />
+      <workItem from="1545968566509" duration="112000" />
+      <workItem from="1545968931501" duration="182000" />
+      <workItem from="1545970785299" duration="5191000" />
+      <workItem from="1545981071037" duration="2138000" />
+      <workItem from="1546329882182" duration="10000" />
+      <workItem from="1546392002619" duration="610000" />
+      <workItem from="1546485647026" duration="4051000" />
+      <workItem from="1560406864060" duration="10959000" />
+      <workItem from="1560474481494" duration="13995000" />
+      <workItem from="1560731254955" duration="17658000" />
+      <workItem from="1560820176145" duration="4009000" />
+      <workItem from="1560824506135" duration="153000" />
+      <workItem from="1560824755295" duration="7059000" />
+      <workItem from="1560841488061" duration="4876000" />
+      <workItem from="1560846634059" duration="1893000" />
+      <workItem from="1560925066428" duration="583000" />
+      <workItem from="1561188149838" duration="578000" />
+      <workItem from="1561338532341" duration="1185000" />
+      <workItem from="1561452398647" duration="195000" />
+      <workItem from="1561515173722" duration="5179000" />
+      <workItem from="1561530253360" duration="8334000" />
+      <workItem from="1561618669095" duration="3111000" />
+      <workItem from="1561684934913" duration="13151000" />
+      <workItem from="1561944492014" duration="1138000" />
+      <workItem from="1561961521584" duration="19000" />
+      <workItem from="1562142428002" duration="2993000" />
+      <workItem from="1562211071706" duration="2375000" />
+      <workItem from="1562405961970" duration="1324000" />
+      <workItem from="1562545507933" duration="7235000" />
+      <workItem from="1562635173254" duration="21412000" />
+      <workItem from="1562720991980" duration="14494000" />
+      <workItem from="1562808443927" duration="2646000" />
+      <workItem from="1563432152105" duration="4169000" />
+      <workItem from="1563523922037" duration="585000" />
+      <workItem from="1563776849340" duration="8419000" />
+      <workItem from="1563930832307" duration="2058000" />
+      <workItem from="1564639777725" duration="1187000" />
+      <workItem from="1567154293846" duration="1334000" />
+      <workItem from="1568017147995" duration="6636000" />
+      <workItem from="1568078390403" duration="19295000" />
+      <workItem from="1568164883202" duration="9915000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BusinessdemoApplicationTests_contextLoads - 2019.07.08 at 09h 22m 53s.xml">
+      <configuration name="BusinessdemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusinessdemoApplicationTests_contextLoads - 2019.07.08 at 09h 24m 00s.xml">
+      <configuration name="BusinessdemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="226064000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="0" width="1335" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3419608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40771812" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34228188" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3942953" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.21308725" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19401632" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/TestController.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/TestController.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ReadxmlByDom.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((TjEchartData)((TjtbVo)((java.util.ArrayList)result.data).get(0)).echartData).indexXaxisDatas" custom="com.example.damuMyschool.data.vo.TjEchartData,com.example.damuMyschool.data.vo.TjtbVo,java.util.ArrayList" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="args" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/response/IResultCode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/response/ResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/dto/TjtbDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/mapper/TjtbMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/TjTableData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/IndexXaxisData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/TjtbVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/TjtbService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/vo/TjEchartData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/controller/TjtbController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/entity/Tjtb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/resources/mapping/TjtbMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9775">
+          <caret line="425" column="39" selection-start-line="425" selection-start-column="39" selection-end-line="425" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/resources/mapping/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="125" column="46" lean-forward="true" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/data/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/gatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserverdemo/src/main/resources/config/dev-in/permission-dev-in.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/feign/client/impl/ExtractDataClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/mapper/PermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/response/ResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_damuMyschool/src/main/java/com.example.damuMyschool/service/impl/TjtbServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="method#getTjtb#0;class#TjtbServiceImpl#0" />
+            <element signature="method#getTjtbVos#0;class#TjtbServiceImpl#0" />
+            <element signature="method#getTjEchartData#0;class#TjtbServiceImpl#0" />
+            <element signature="method#getIndexXaxisData#0;class#TjtbServiceImpl#0" />
+            <element signature="e#4389#5046#1" />
+            <element signature="method#objectEqual#0;class#TjtbServiceImpl#0" />
+            <element signature="method#getTjtbGp#0;class#TjtbServiceImpl#0" />
+            <element signature="e#6120#6121#0" expanded="true" />
+            <element signature="e#6147#6148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/data/ActInfVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17-beta1/poi-3.17-beta1.jar!/org/apache/poi/ss/usermodel/Workbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="85" column="45" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/feign/client/ExtractData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/data/dto/permissionDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-config/src/main/resources/configpath/business-demo-dev-inf.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-config/src/main/resources/configpath/business-damumyschool-dev-in.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-config/src/main/resources/configpath/gateway-dev-in.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="193" column="30" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17-beta1/poi-3.17-beta1.jar!/org/apache/poi/ss/usermodel/Row.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/resources/mapping/PermissionMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/resources/mapping/book.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/entity/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/resources/mapping/UserMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/businessdemo/src/main/java/com/example/businessdemo/util/ReadxmlByDom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1931#1939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>business-config</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

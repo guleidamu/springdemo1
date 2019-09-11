@@ -1,0 +1,29 @@
+server:
+  port: 12346
+feign:
+  hystrix:
+    enabled: true
+
+ribbon:
+  ReadTimeout: 600000
+  ConnectTimeout: 60000
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+zuul:
+  #servlet-path: / #用zuul的servlet 解决通过zuul上传文件时乱码的问题
+  sensitive-headers: #将请求头信息传递到下游服务，此属性也可以单独设置在各个路由服务中
+  routes:
+    businessdemo:
+      path: /permission/**
+      serviceId: business-demo
+    businessdamumyschool:
+      path: /myschool/**
+      serviceId: business-damumyschool

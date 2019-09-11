@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: business-demo
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: business-config #配置中心服务名
+      profile: dev-inf
+      name: business-demo
+#  datasource:
+#    name: test
+#    url: jdbc:mysql://127.0.0.1:3306/damu
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
+#    filters: stat
+#    maxActive: 20
+#    initialSize: 1
+#    maxWait: 60000
+#    minIdle: 1
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: select 'x'
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    poolPreparedStatements: true
+#    maxOpenPreparedStatements: 20
+#
+#server:
+#  port: 12345
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        http://eureka:eureka@localhost:10086/eureka/
+    registry-fetch-interval-seconds: 10
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.example.**.entity
+logging:
+  level:
+    com.example.businessdemo.mapper: debug
+
