@@ -9,8 +9,11 @@
         <module name="business-config" />
         <module name="business_damuMyschool" />
         <module name="businessdemo" />
+        <module name="clientdemo" />
         <module name="configclientdemo" />
         <module name="configserverdemo" />
+        <module name="devdemo-business" />
+        <module name="eureka-demo" />
         <module name="eureka-server" />
         <module name="gateway" />
         <module name="redisDemo" />

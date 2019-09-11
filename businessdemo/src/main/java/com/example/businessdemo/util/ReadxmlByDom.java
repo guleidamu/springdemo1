@@ -59,7 +59,7 @@ public class ReadxmlByDom {
                 org.w3c.dom.Node cNode = cList.item(j);
                 String content = cNode.getFirstChild().getTextContent();
                 contents.add(content);
-                //System.out.println(contents);
+                //System.out.println(contents);5454523
             }
 
             book.setName(contents.get(0));
@@ -104,7 +104,7 @@ public class ReadxmlByDom {
         for (int i = 0; i < selectList.getLength(); i++) {
             Select select = new Select();
             String parameterType = "";
-            //获取第i个book结点
+            //获取第i个book结点test1
             org.w3c.dom.Node node = selectList.item(i);
             //获取标签中的字符串
             String context = node.getTextContent();
