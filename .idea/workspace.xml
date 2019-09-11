@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -231,10 +231,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="21" />
+    <option name="y" value="17" />
     <option name="width" value="1335" />
-    <option name="height" value="728" />
+    <option name="height" value="669" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -564,7 +565,7 @@
       <workItem from="1568017147995" duration="6636000" />
       <workItem from="1568078390403" duration="19295000" />
       <workItem from="1568164883202" duration="9915000" />
-      <workItem from="1568191372911" duration="2383000" />
+      <workItem from="1568191372911" duration="2624000" />
     </task>
     <servers />
   </component>
@@ -577,7 +578,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228447000" />
+    <option name="totallyTimeSpent" value="228688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +590,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="0" width="1335" height="728" extended-state="0" />
+    <frame x="21" y="17" width="1335" height="669" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3027451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -614,7 +616,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.37815127" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4197761" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1090,7 +1092,7 @@
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
